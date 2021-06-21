@@ -17,7 +17,10 @@ iOSwangyihan is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'iOSwangyihan'
+source 'https://github.com/iOSwangyihan/Specs.git'
+
+pod 'GTFoundation', '5.0.1'
+
 ```
 
 ## Author
