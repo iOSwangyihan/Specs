@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.2'
   s.watchos.deployment_target = '4.0'
 
-  s.dependency 'CryptoSwift', '1.0.0'
+  s.dependency 'CryptoSwift'
   
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 end
